@@ -202,8 +202,8 @@ public class GestaoReservas
 
         //Opcao h) do Menu
         case 'h': case 'H':
-                  //Visualizar os dados dos programadores
-                  visualizarDadosProgramadores();
+                  //Visualizar os dados do programador
+                  visualizarDadosProgramador();
                   break;
 
         //Opcao i) do Menu
@@ -416,18 +416,15 @@ public class GestaoReservas
     System.out.println(" =====================================================");
   }
 
-  //Metodo para visualizar os dados dos programadores
-  public static void visualizarDadosProgramadores()
+  //Metodo para visualizar os dados do programador
+  public static void visualizarDadosProgramador()
   {
     System.out.println("\n =======================================");
     System.out.println("|      Nome       | Codigo de Estudante |");
     System.out.println(" =======================================");
     System.out.println("| Antonio Junior  |      20240931       |");
     System.out.println(" =======================================");
-    System.out.println("| Joaquim Manjama |      20240972       |");
-    System.out.println(" =======================================");
-    System.out.println("| Keesha Ossumane |      20240374       |");
-    System.out.println(" =======================================");
+   
   }
 
   //Metodo para visualizar a quantidade de reservas feitas por cada tipo de reserva em forma de tabela    
